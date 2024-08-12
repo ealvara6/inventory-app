@@ -563,30 +563,6 @@ body {
   display: flex;
 }
 
-.h-3 {
-  height: 0.75rem;
-}
-
-.h-96 {
-  height: 24rem;
-}
-
-.h-14 {
-  height: 3.5rem;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
-.h-32 {
-  height: 8rem;
-}
-
-.h-\[32px\] {
-  height: 32px;
-}
-
 .h-\[64px\] {
   height: 64px;
 }
@@ -595,68 +571,8 @@ body {
   min-height: 5rem;
 }
 
-.w-28 {
-  width: 7rem;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
-.w-3\/5 {
-  width: 60%;
-}
-
-.w-2\/3 {
-  width: 66.666667%;
-}
-
-.w-\[500px\] {
-  width: 500px;
-}
-
-.w-7 {
-  width: 1.75rem;
-}
-
-.w-3\/4 {
-  width: 75%;
-}
-
-.w-6 {
-  width: 1.5rem;
-}
-
-.w-16 {
-  width: 4rem;
-}
-
-.w-24 {
-  width: 6rem;
-}
-
-.w-40 {
-  width: 10rem;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-\[32px\] {
-  width: 32px;
-}
-
 .w-\[64px\] {
   width: 64px;
-}
-
-.grow {
-  flex-grow: 1;
 }
 
 .flex-col {
@@ -671,65 +587,16 @@ body {
   justify-content: center;
 }
 
-.justify-between {
-  justify-content: space-between;
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-4 {
   gap: 1rem;
 }
 
-.gap-14 {
-  gap: 3.5rem;
-}
-
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-8 {
-  gap: 2rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
-}
-
-.self-center {
-  align-self: center;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-.bg-offWhite-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 220 218 / var(--tw-bg-opacity));
-}
-
-.bg-leather {
-  --tw-bg-opacity: 1;
-  background-color: rgb(171 115 43 / var(--tw-bg-opacity));
-}
-
-.bg-grey-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(89 84 78 / var(--tw-bg-opacity));
-}
-
-.bg-grey-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(61 53 52 / var(--tw-bg-opacity));
-}
-
-.bg-grey-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(33 29 29 / var(--tw-bg-opacity));
-}
-
-.bg-contain {
-  background-size: contain;
 }
 
 .bg-cover {
@@ -738,23 +605,6 @@ body {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
-}
-
-.p-4 {
-  padding: 1rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .px-4 {
@@ -776,26 +626,6 @@ body {
   line-height: 2rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -812,56 +642,14 @@ body {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-sm {
-  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-2xl {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:bg-grey-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(33 29 29 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-grey-100:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(89 84 78 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-grey-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(61 53 52 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 768px) {
-  .md\:w-3\/5 {
-    width: 60%;
-  }
-
   .md\:w-\[1000px\] {
     width: 1000px;
-  }
-
-  .md\:min-w-full {
-    min-width: 100%;
-  }
-
-  .md\:min-w-\[500px\] {
-    min-width: 500px;
-  }
-
-  .md\:min-w-\[900px\] {
-    min-width: 900px;
-  }
-
-  .md\:max-w-\[900px\] {
-    max-width: 900px;
   }
 
   .md\:flex-row {
@@ -877,49 +665,8 @@ body {
     line-height: 2.5rem;
   }
 
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
-  .md\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:w-3\/5 {
-    width: 60%;
-  }
-
-  .lg\:w-96 {
-    width: 24rem;
-  }
-
-  .lg\:w-\[500px\] {
-    width: 500px;
-  }
-
-  .lg\:w-\[1000px\] {
-    width: 1000px;
-  }
-
-  .lg\:flex-row {
-    flex-direction: row;
-  }
-
-  .lg\:justify-between {
-    justify-content: space-between;
   }
 }
