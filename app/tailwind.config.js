@@ -6,21 +6,19 @@ module.exports = {
       transparent: 'transparent',
       black: '#000',
       white: '#fff',
-      offWhite: {
-        100: '#F9F9F9',
-        200: '#DCDCDA'
+      beige: {
+        100: '#FDE4D0',
+        200: '#FCE3CF',
+        300: '#FAE1CD',
+        400: '#FBE2CE',
+        500: '#F5D9C9'
       },
-      grey: {
-        100: '#59544E',
-        200: '#3D3534',
-        300: '#211D1D',
+      rosePink: '#F28A95',
+      dullPurple: {
+        100: '#855459',
+        200: '#936567'
       },
-      silk: {
-        100: '#B1B5A6',
-        200: '#8A8D7E',
-        300: '#67675F',
-      },
-      leather: '#AB732B'
+      fadedPink: '#D3A1AD',
     },
     extend: {},
   },

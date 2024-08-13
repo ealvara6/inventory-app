@@ -7,7 +7,21 @@
     <link rel="stylesheet" href="/css/output.css">
 </head>
 <body>
-    <%- include('./partials/navbar', { links: links }) %>
-    <div class="text-white">This is the homepage</div>
+    <div class="flex flex-col">
+        <%- include('./partials/navbar', { links: links }) %>
+            <div class="flex items-center justify-center min-h-[calc(100vh-80px)] w-screen p-3">
+                <div class="flex flex-col items-center md:flex-row w-[1000px] min-h-[700px]">
+                    <div class="md:w-1/3 w-1/2 h-96 bg-contain bg-no-repeat bg-center" style="background-image: url(images/alcremie.png);"></div>
+                    <div class="flex flex-col w-full md:w-1/2 grow rounded-xl h-auto gap-4 justify-center">
+                        <div class="text-center font-bold text-4xl p-3">Enter Title Here</div>
+                        <div class="text-xl leading-9 font-light text-center md:text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero beatae sit corporis? Dolor quae provident aut magni deleniti reiciendis maxime libero nisi, consectetur obcaecati asperiores sint sed nam? Itaque, soluta hic! Soluta repudiandae numquam doloribus? Maiores quia, repellendus, voluptates voluptate magni maxime a nihil dolor, sit nulla tenetur eos nisi?</div>
+                        <div class="flex items-center self-center h-32">
+                            <button class="w-36 min-h-12 bg-dullPurple-200 text-white rounded-lg">Explore Pokemon</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
 </body>
 </html>

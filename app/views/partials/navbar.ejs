@@ -1,4 +1,4 @@
-<nav class="text-white shadow-lg flex justify-center min-h-20 items-center">
+<nav class="shadow-lg flex justify-center min-h-20 items-center z-10 bg-transparent">
         <div class="flex md:flex-row flex-col gap-2 items-center md:w-[1000px] md:justify-between">
             
             <a href="/" class=" flex text-2xl md:text-4xl text-center items-center gap-2">
@@ -8,7 +8,7 @@
                 <ul class="flex text-2xl gap-4">
                     <% links.map((link) => { %>
                         <li>
-                            <a class="hover:bg-grey-200 text-lg md:text-lg text-center px-4 py-2 rounded-lg" href=<%= link.link %>><%= link.name%></a>
+                            <a class="hover:bg-beige-500 text-lg md:text-lg text-center px-4 py-2 rounded-lg" href=<%= link.link %>><%= link.name%></a>
                         </li>
                     <% }) %>
                 </ul>
