@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="/css/output.css">
+</head>
+<body>
+    <div class="flex flex-col gap-5">
+        <%- include('partials/navbar') %>
+        <div class="flex flex-col gap-5 md:grid md:grid-cols-[40%_60%] md:grid-rows-2 md:gap-x-5 md:gap-y-3 min-h-[800px] p-3 max-w-full w-[1000px] self-center bg-beige-100 rounded-lg">
+            <div class="h-96 md:h-full bg-contain bg-no-repeat bg-center bg-beige-500 rounded-lg" style="background-image: url(/images/bulbasaur.png);"></div>
+            <div class="flex flex-col gap-5">
+                <div class="flex flex-col self-center">
+                    <div class="font-bold text-3xl">Bulbasaur</div>
+                    <div class="font-light text-sm self-center">#0001</div>
+                </div>
+                <div class="min-h-40">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio nesciunt, sit itaque, id architecto quos harum quidem provident eum error nemo beatae odit molestiae ducimus neque officiis commodi accusantium, amet sapiente. Aliquam magnam, quos maiores dignissimos reiciendis quisquam omnis odio sapiente voluptatibus laudantium ex cupiditate. Temporibus, officia veniam? Voluptatem, ut.</div>
+                <div class="flex">
+                    <div class="p-1 w-24 text-center border-black border-solid border-2 rounded-lg text-sm">Grass</div>
+                </div>
+            </div>
+            <div class="flex flex-col col-span-2 gap-20">
+                <div class="font-bold text-2xl self-center">Evolutions</div>
+                <div class="flex h-16 gap-8 items-center w-fit self-center grow">
+                    <div class="flex flex-col">
+                        <div style="background-image: url(/images/bulbasaur.png);" class="bg-beige-500 rounded-full h-32 w-32 bg-contain bg-center"></div>
+                        <div class="text-center">Bulbasaur</div>
+                    </div>
+                    <div>----></div>
+                    <div class="flex flex-col">
+                        <div style="background-image: url(/images/bulbasaur.png);" class="bg-beige-500 rounded-full h-32 w-32 bg-contain bg-center"></div>
+                        <div class="text-center">Bulbasaur</div>
+                    </div>
+                    <div>----></div>
+                    <div class="flex flex-col">
+                        <div style="background-image: url(/images/bulbasaur.png);" class="bg-beige-500 rounded-full h-32 w-32 bg-contain bg-center"></div>
+                        <div class="text-center">Bulbasaur</div>
+                    </div>
+                </div>
+                <a href="/pokemon" class="p-3 bg-rosePink w-32 text-center rounded-lg text-white font-bold">Go Back</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
