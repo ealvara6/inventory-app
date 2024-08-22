@@ -5,5 +5,5 @@ exports.getAllPokemon = asyncHandler(async(req, res) => {
 });
 
 exports.getOnePokemon = asyncHandler(async(req, res) => {
-    res.render('pokemonView', { links: req.links });
+    res.render('pokemonSingleView', { links: req.links });
 });

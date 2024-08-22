@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trainer</title>
+    <link rel="stylesheet" href="/css/output.css">
+</head>
+<body>
+    <div class="flex flex-col gap-11">
+        <%- include('partials/navbar') %>
+        <div class="flex flex-col sm:grid sm:grid-cols-2 sm:grid-row-2 max-w-[600px] min-h-[600px] self-center p-2 bg-beige-500 rounded-lg gap-8 sm:gap-0">
+            <div style="background-image: url(/images/brock.png);" class="bg-contain bg-center bg-no-repeat w-auto h-96 sm:h-auto"></div>
+            <div class="grid grid-cols-2 grid-rows-2 sm:flex sm:flex-col gap-5">
+                <div class="flex gap-2 text-xl font-semibold">Name: <span class="font-normal">Brock</span></div>
+                <div class="flex gap-2 text-xl font-semibold">Hometown: <span class="font-normal">Pewter City</span></div>
+                <div class="flex gap-2 text-xl font-semibold">Region: <span class="font-normal">Kanto</span></div>
+                <div class="flex gap-2 text-xl font-semibold">Specialty: <span class="font-normal">Rock</span></div>
+            </div>
+            <div class="col-span-2 flex flex-col items-center gap-3">
+                <div class="font-semibold text-lg">Pokemon</div>
+                <div class="flex gap-5 flex-wrap justify-center">
+                    <div style="background-image: url(/images/bulbasaur.png);" class="w-20 h-20 bg-center bg-no-repeat bg-contain bg-dullPurple-200 rounded-full"></div>
+                    <div style="background-image: url(/images/bulbasaur.png);" class="w-20 h-20 bg-center bg-no-repeat bg-contain bg-dullPurple-200 rounded-full"></div>
+                    <div style="background-image: url(/images/bulbasaur.png);" class="w-20 h-20 bg-center bg-no-repeat bg-contain bg-dullPurple-200 rounded-full"></div>
+                    <div style="background-image: url(/images/bulbasaur.png);" class="w-20 h-20 bg-center bg-no-repeat bg-contain bg-dullPurple-200 rounded-full"></div>
+                    <div style="background-image: url(/images/bulbasaur.png);" class="w-20 h-20 bg-center bg-no-repeat bg-contain bg-dullPurple-200 rounded-full"></div>
+                    <div style="background-image: url(/images/bulbasaur.png);" class="w-20 h-20 bg-center bg-no-repeat bg-contain bg-dullPurple-200 rounded-full"></div>
+                    <div style="background-image: url(/images/bulbasaur.png);" class="w-20 h-20 bg-center bg-no-repeat bg-contain bg-dullPurple-200 rounded-full"></div>
+                    <div style="background-image: url(/images/bulbasaur.png);" class="w-20 h-20 bg-center bg-no-repeat bg-contain bg-dullPurple-200 rounded-full"></div>
+                    <div style="background-image: url(/images/bulbasaur.png);" class="w-20 h-20 bg-center bg-no-repeat bg-contain bg-dullPurple-200 rounded-full"></div>
+                </div>
+                <div class="flex self-start grow items-end">
+                    <a href="/trainers" class="w-24 h-fit text-center text-white p-2 rounded-lg bg-rosePink">Back</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
